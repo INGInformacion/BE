@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@extends('layouts.header')
+@extends('service_view.nav')
 
 @section('content')
 
@@ -8,11 +8,15 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
-                    You are logged in!
+                    <div class="panel-body">
+                     You are logged in!
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+<div class="container">
+    @include('service_view.footer')
+</div>
 
 @endsection

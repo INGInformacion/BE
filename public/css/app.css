@@ -17,7 +17,8 @@ li{
 
 
 
-footer { background-color:#0c1a1e; min-height:0px; font-family: 'Open Sans', sans-serif; margin-top:30px; }
+footer { background-color:#0c1a1e; min-height:0px; font-family: 'Open Sans', sans-serif; position: absolute; bottom: 0 }
+
 .footer-col { margin-top:50px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -65,3 +66,4 @@ footer { background-color:#0c1a1e; min-height:0px; font-family: 'Open Sans', san
  .google{
      background-color:#f63e28;
  }
+
